@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ──────────────────────────────────────────────
+# SQL Injection Detection Agent — Project-Specific
+# ──────────────────────────────────────────────
+
+# Generated scan reports
+reports/
+*.json
+!package*.json
+
+# Test runner JSON output
+.test_report.json
+
+# Docker MySQL data volume (local dev only)
+mysql_data/
+
+# Agent log files
+*.log
+
+# IDE
+.vscode/settings.json
+.idea/

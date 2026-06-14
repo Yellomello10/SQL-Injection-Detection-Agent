@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+asyncio_mode = "auto"
+markers = [
+    "integration: marks tests that require the live Docker stack",
+    "unit: marks pure unit tests (no external services required)",
+]
+log_cli = true
+log_cli_level = "WARNING"
+addopts = "--tb=short -q"
