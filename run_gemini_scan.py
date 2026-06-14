@@ -189,9 +189,9 @@ def run_gemini_scan(
 
     console.print(Panel(
         f"[bold cyan]Gemini SQL Injection Security Agents[/bold cyan]\n"
-        f"[dim]Target API:[/dim]   [cyan]{target_url}[/cyan]\n"
-        f"[dim]Gemini Model:[/dim] [green]gemini-2.5-flash[/green]\n"
-        f"[dim]Mode:[/dim]         {'[yellow]FAST (2 payloads/category)[/yellow]' if fast_mode else '[green]FULL (all payloads)[/green]'}",
+        f"[dim]Target REST API:[/dim] [cyan]{target_url}[/cyan]\n"
+        f"[dim]Gemini Model:[/dim]   [green]gemini-2.5-flash[/green]\n"
+        f"[dim]Scan Speed:[/dim]     {'[yellow]Quick (2 payloads/category)[/yellow]' if fast_mode else '[green]Full (all payloads)[/green]'}",
         border_style="cyan",
         padding=(0, 2),
     ))
