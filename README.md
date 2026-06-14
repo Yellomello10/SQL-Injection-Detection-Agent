@@ -1,12 +1,9 @@
-# 🔍 Gemini SQL Injection Detection & Classification Agents
+# SQL Injection Detection & Classification Agents
 
-An AI-powered SQL injection vulnerability scanner built with **Python** and the **Gemini API** (`gemini-2.5-flash`). The project operates entirely offline by default (using a local SQLite-backed target REST API) and features two specialized AI agents that coordinate to find and analyze SQL injection vulnerabilities.
+An AI-powered SQL injection vulnerability scanner. The project operates entirely offline by default (using a local SQLite-backed target REST API) and features two specialized AI agents that coordinate to find and analyze SQL injection vulnerabilities.
 
-> ⚠️ **SECURITY DISCLAIMER**: This project is for **authorized security research and education only**. The target API is intentionally vulnerable. **Never deploy the target API on any public or production system.** Only run the scanner against systems you own or have explicit written permission to test.
 
----
-
-## 🏗️ Architecture
+Architecture
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
