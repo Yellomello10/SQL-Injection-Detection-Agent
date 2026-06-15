@@ -1,11 +1,3 @@
-"""
-Agent Tools — HTTP probing, payload injection, and response analysis.
-
-These functions are called by the Anthropic tool_use agentic loop.
-Each public function maps 1-to-1 with a tool definition in sql_injection_agent.py.
-
-⚠️  FOR AUTHORIZED SECURITY TESTING ONLY.
-"""
 from __future__ import annotations
 
 import logging
