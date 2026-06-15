@@ -1,15 +1,3 @@
-"""
-Offline SQLite-backed Vulnerable Flask Target API
-==================================================
-A self-contained version of the vulnerable target API that uses SQLite
-(Python stdlib) instead of MySQL. No Docker or external DB needed.
-
-Run directly:
-    python target_api/app_sqlite.py
-
-⚠️  INTENTIONALLY VULNERABLE — FOR SECURITY TESTING ONLY.
-    Never expose to public networks.
-"""
 import logging
 import os
 import sqlite3
