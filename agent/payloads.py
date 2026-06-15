@@ -1,14 +1,3 @@
-"""
-SQLi Payload Library
-====================
-Comprehensive collection of SQL injection payloads organized by attack category.
-
-Each category is a list of strings ready to be injected into HTTP parameters.
-The payloads target MySQL 8.0 (the Docker container database) but many are
-cross-database compatible.
-
-⚠️  FOR AUTHORIZED SECURITY TESTING ONLY.
-"""
 from typing import Final
 
 # ──────────────────────────────────────────────────────────────────────────────
