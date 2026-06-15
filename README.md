@@ -17,7 +17,7 @@ Architecture
 │             HTTP                                    HTTPS              │
 │               ▼                                       │                │
 │   ┌────────────────────────┐              ┌───────────▼────────────┐   │
-│   │    Target Flask API    │              │    Classifier Agent    │   │
+│   │    Target Rest API    │              │    Classifier Agent    │   │
 │   │    (app_sqlite.py)     │              │   (gemini_agents.py)   │   │
 │   └───────────┬────────────┘              └───────────┬────────────┘   │
 │               │                                       │                │
