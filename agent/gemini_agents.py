@@ -1,13 +1,3 @@
-"""
-Gemini-Powered SQL Injection Detection & Classification Agents
-============================================================
-Provides:
-  1. GeminiClient: Helper class for calling the Gemini API (gemini-2.5-flash)
-  2. SQLiDetectionAgent: Scans REST API endpoints and detects vulnerabilities
-  3. SQLiClassifierAgent: Classifies the specific type of SQLi and provides remediation
-
-⚠️ FOR AUTHORIZED SECURITY TESTING ONLY.
-"""
 from __future__ import annotations
 
 import json
