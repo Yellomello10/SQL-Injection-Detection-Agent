@@ -1,18 +1,3 @@
-"""
-HTML + JSON Vulnerability Report Generator
-==========================================
-Produces two report artefacts after each agent scan:
-  1. A machine-readable JSON report (<scan_id>.json)
-  2. A rich terminal table (printed via Rich)
-  3. A styled HTML report (<scan_id>.html) for sharing
-
-Usage (standalone):
-    reporter = Reporter(output_dir="./reports")
-    reporter.finalize(scan_result)     # writes JSON + HTML
-    reporter.print_terminal_table()    # prints Rich table
-
-⚠️  FOR AUTHORIZED SECURITY TESTING ONLY.
-"""
 from __future__ import annotations
 
 import json
